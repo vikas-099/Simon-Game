@@ -63,3 +63,7 @@ body {
   background-color: white;
   outline: none;
 }
+
+.play-button:hover{
+  background-color: #FEF2BF;
+}
