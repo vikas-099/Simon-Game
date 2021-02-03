@@ -16,6 +16,10 @@ $(".play-button").click(function() {
     nextSequence();
     started = true;
   }
+  $(".play-button").addClass("pressed");
+  setTimeout(function () {
+    $(".play-button").removeClass("pressed");
+  }, 100);
 });
 $(".btn").click(function() {
   var userChosenColour = $(this).attr("id");
